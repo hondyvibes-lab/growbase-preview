@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>カテゴリ別 商品一覧（見本）｜GrowBase（仮称）</title>
+  <meta name="description" content="GrowBase（仮称）のカテゴリ別商品一覧（見本）。テント・照明・肥料・培地・換気・計測機器・育苗用品。価格は準備中。" />
+  <meta name="theme-color" content="#0b100d" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <!-- OGP（og:url / og:image はドメイン・画像確定後に追加） -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="GrowBase（仮称）" />
+  <meta property="og:title" content="カテゴリ別 商品一覧（見本）｜GrowBase（仮称）" />
+  <meta property="og:description" content="GrowBase（仮称）のカテゴリ別商品一覧（見本）。テント・照明・肥料・培地・換気・計測機器・育苗用品。価格は準備中。" />
+  <meta property="og:locale" content="ja_JP" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#top">本文へスキップ</a>
+  <header>
+    <div class="wrap nav">
+      <a class="logo" href="index.html" aria-label="GrowBase（仮称） トップへ">
+        <img class="logo-img" src="assets/logo.svg" width="40" height="40" alt="" />
+        <span>GrowBase<small>グロウベース · 仮称</small></span>
+      </a>
+      <nav class="nav-links" aria-label="メイン">
+        <a href="category.html" aria-current="page">カテゴリ</a>
+        <a href="sets.html">セット</a>
+        <a href="guide.html">はじめての方へ</a>
+        <a href="about.html">お店紹介</a>
+      </nav>
+      <a class="btn btn-primary btn-sm nav-cta" href="contact.html">相談する</a>
+      <button type="button" class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="メニューを開く">
+        <svg class="icon-open" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg class="icon-close" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <div class="wrap">
+        <nav aria-label="モバイル">
+          <a href="index.html">ホーム</a>
+          <a href="category.html" aria-current="page">カテゴリ別商品一覧（見本）</a>
+          <a href="product.html">商品詳細（見本）</a>
+          <a href="sets.html">スターターセット比較</a>
+          <a href="guide.html">はじめての方へ（選び方ガイド）</a>
+          <a href="about.html">GrowBaseについて（お店紹介）</a>
+          <a href="index.html#brands">取扱ブランド候補</a>
+          <a href="index.html#faq">よくある質問</a>
+          <a href="legal.html">特定商取引法に基づく表記（準備中）</a>
+        </nav>
+        <a class="btn btn-primary" href="contact.html">相談する</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top" tabindex="-1">
+    <section class="page-head">
+      <div class="wrap">
+        <nav class="breadcrumb" aria-label="パンくずリスト"><ol><li><a href="index.html">ホーム</a></li><li><span aria-current="page">商品カテゴリ</span></li></ol></nav>
+        <span class="badge">Categories</span>
+        <h1>カテゴリ別 商品一覧（見本）</h1>
+        <p class="lead">テント・照明・肥料から計測機器まで、カテゴリごとに商品イメージを並べた見本ページです。商品名は一般名、価格はすべて準備中です。</p>
+        <p class="sample-flag">見本です。実際の取扱商品・価格ではありません</p>
+      </div>
+    </section>
+
+    <section class="section section-tight">
+      <div class="wrap">
+        <div class="cat-tabs" role="tablist" aria-label="商品カテゴリ">
+          <button type="button" class="cat-tab" role="tab" id="tab-tent" aria-controls="panel-tent" aria-selected="true" data-cat-tab="tent">テント<span class="count">6</span></button>
+          <button type="button" class="cat-tab" role="tab" id="tab-light" aria-controls="panel-light" aria-selected="false" data-cat-tab="light">照明<span class="count">6</span></button>
+          <button type="button" class="cat-tab" role="tab" id="tab-nutrient" aria-controls="panel-nutrient" aria-selected="false" data-cat-tab="nutrient">肥料・培地<span class="count">6</span></button>
+          <button type="button" class="cat-tab" role="tab" id="tab-air" aria-controls="panel-air" aria-selected="false" data-cat-tab="air">換気・空調<span class="count">6</span></button>
+          <button type="button" class="cat-tab" role="tab" id="tab-meter" aria-controls="panel-meter" aria-selected="false" data-cat-tab="meter">計測機器<span class="count">6</span></button>
+          <button type="button" class="cat-tab" role="tab" id="tab-seedling" aria-controls="panel-seedling" aria-selected="false" data-cat-tab="seedling">育苗<span class="count">6</span></button>
+        </div>
+        <div class="toolbar">
+          <p class="result" aria-live="polite"><strong id="resultName">テント</strong>：<strong id="resultCount">6</strong>件（見本）</p>
+          <div class="toolbar-controls">
+            <span class="filter-chip" aria-disabled="true">初心者向け</span>
+            <span class="filter-chip" aria-disabled="true">省スペース</span>
+            <span class="filter-chip" aria-disabled="true">在庫あり</span>
+            <label class="select-fake"><span class="sr-only">並び替え</span>
+              <select disabled aria-label="並び替え（見本・動作しません）">
+                <option>おすすめ順</option><option>新着順</option><option>価格の安い順</option>
+              </select>
+            </label>
+            <span class="ui-sample">※並び替え・絞り込みは見た目のみの見本です</span>
+          </div>
+        </div>
+        <section class="cat-panel" id="panel-tent" role="tabpanel" aria-labelledby="tab-tent" data-cat-panel="tent" data-name="テント" tabindex="0">
+          <div class="cat-panel-head">
+            <h2>グローテント</h2>
+            <p>光漏れを抑えて栽培空間をつくる基本機材。置き場所の寸法と天井高を先に確認。</p>
+          </div>
+          <ul class="products products-3" aria-label="テントの商品カード（見本）">
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><rect x="18.0" y="14" width="60" height="68" rx="5" stroke="#5dce7a" stroke-width="2.2"/><path d="M18.0 26h60" stroke="#3a5a44" stroke-width="2.2"/><rect x="28.799999999999997" y="18" width="38.4" height="5" rx="2" fill="#5dce7a" opacity=".6"/><path d="M48 26v56" stroke="#c9a86c" stroke-width="1.6" stroke-dasharray="3 3" opacity=".6"/><text x="48" y="58.0" text-anchor="middle" fill="#e0c48a" font-size="10" font-weight="700" font-family="system-ui,sans-serif">60×60</text></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">テント</span>
+                <h3><a class="product-link" href="product.html">グローテント 60x60cm</a></h3>
+                <p class="desc">棚の一角やクローゼット横に置きやすい小型サイズの例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><rect x="15.0" y="10" width="66" height="72" rx="5" stroke="#5dce7a" stroke-width="2.2"/><path d="M15.0 22h66" stroke="#3a5a44" stroke-width="2.2"/><rect x="26.88" y="14" width="42.24" height="5" rx="2" fill="#5dce7a" opacity=".6"/><path d="M48 22v60" stroke="#c9a86c" stroke-width="1.6" stroke-dasharray="3 3" opacity=".6"/><text x="48" y="56.0" text-anchor="middle" fill="#e0c48a" font-size="10" font-weight="700" font-family="system-ui,sans-serif">80×80</text></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">テント</span>
+                <h3><a class="product-link" href="product.html">グローテント 80x80cm</a></h3>
+                <p class="desc">ハーブ・葉物野菜を数鉢育てたい方向けの中型サイズの例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><rect x="8.0" y="30" width="80" height="52" rx="5" stroke="#5dce7a" stroke-width="2.2"/><path d="M8.0 42h80" stroke="#3a5a44" stroke-width="2.2"/><rect x="22.4" y="34" width="51.2" height="5" rx="2" fill="#5dce7a" opacity=".6"/><path d="M48 42v40" stroke="#c9a86c" stroke-width="1.6" stroke-dasharray="3 3" opacity=".6"/><text x="48" y="66.0" text-anchor="middle" fill="#e0c48a" font-size="10" font-weight="700" font-family="system-ui,sans-serif">120×60</text></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">テント</span>
+                <h3><a class="product-link" href="product.html">グローテント 120x60cm</a></h3>
+                <p class="desc">横長で窓際や壁沿いに置きやすいタイプの例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><rect x="12.0" y="8" width="72" height="74" rx="5" stroke="#5dce7a" stroke-width="2.2"/><path d="M12.0 20h72" stroke="#3a5a44" stroke-width="2.2"/><rect x="24.96" y="12" width="46.08" height="5" rx="2" fill="#5dce7a" opacity=".6"/><path d="M48 20v62" stroke="#c9a86c" stroke-width="1.6" stroke-dasharray="3 3" opacity=".6"/><text x="48" y="55.0" text-anchor="middle" fill="#e0c48a" font-size="10" font-weight="700" font-family="system-ui,sans-serif">100×100</text></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">テント</span>
+                <h3><a class="product-link" href="product.html">グローテント 100x100cm</a></h3>
+                <p class="desc">観葉植物の冬越しなど、ゆとりを持たせたい方向けの例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><rect x="26.0" y="32" width="44" height="50" rx="5" stroke="#5dce7a" stroke-width="2.2"/><path d="M26.0 44h44" stroke="#3a5a44" stroke-width="2.2"/><rect x="33.92" y="36" width="28.16" height="5" rx="2" fill="#5dce7a" opacity=".6"/><path d="M48 44v38" stroke="#c9a86c" stroke-width="1.6" stroke-dasharray="3 3" opacity=".6"/><text x="48" y="67.0" text-anchor="middle" fill="#e0c48a" font-size="10" font-weight="700" font-family="system-ui,sans-serif">40×40</text></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">テント</span>
+                <h3><a class="product-link" href="product.html">ミニテント 40x40cm</a></h3>
+                <p class="desc">育苗・マイクロリーフ向けの卓上サイズの例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><path d="M20 20h56" stroke="#3a5a44" stroke-width="2.2" stroke-linecap="round"/><path d="M34 20v16a6 6 0 1 0 6 6M62 20v16a6 6 0 1 1-6 6" stroke="#5dce7a" stroke-width="2.2" stroke-linecap="round"/><rect x="28" y="56" width="40" height="8" rx="3" fill="#1e3024" stroke="#5dce7a" stroke-width="1.6"/><path d="M40 48v8M56 48v8" stroke="#c9a86c" stroke-width="1.6"/><path d="M34 70l-4 10M62 70l4 10" stroke="#5dce7a" stroke-width="1.6" opacity=".35"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">テント</span>
+                <h3><a class="product-link" href="product.html">テント用ハンガー＆フック</a></h3>
+                <p class="desc">照明やファンを吊るす支柱用パーツのセット例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="cat-panel" id="panel-light" role="tabpanel" aria-labelledby="tab-light" data-cat-panel="light" data-name="照明" tabindex="0">
+          <div class="cat-panel-head">
+            <h2>LED育成照明</h2>
+            <p>生育段階と栽培スペースに合う明るさ・照射範囲を選ぶのがポイント。</p>
+          </div>
+          <ul class="products products-3" aria-label="照明の商品カード（見本）">
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><rect x="14" y="22" width="68" height="18" rx="4" fill="#1e3024" stroke="#5dce7a" stroke-width="2.2"/><g fill="#7ee096"><circle cx="24" cy="31" r="2.3"/><circle cx="34" cy="31" r="2.3"/><circle cx="44" cy="31" r="2.3"/><circle cx="54" cy="31" r="2.3"/><circle cx="64" cy="31" r="2.3"/><circle cx="74" cy="31" r="2.3" fill="#e0c48a"/></g><path d="M30 12v10M66 12v10" stroke="#3a5a44" stroke-width="2.2"/><path d="M20 44l-6 32M48 44v36M76 44l6 32" stroke="#5dce7a" stroke-width="2.2" opacity=".3" stroke-linecap="round"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">照明</span>
+                <h3><a class="product-link" href="product.html">フルスペクトルLED 100W</a></h3>
+                <p class="desc">小型テント向けのパネル型LEDを想定した例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><rect x="10" y="20" width="76" height="26" rx="4" fill="#1e3024" stroke="#5dce7a" stroke-width="2.2"/><g fill="#7ee096"><circle cx="18" cy="29" r="2.2"/><circle cx="18" cy="38" r="2.2"/><circle cx="28" cy="29" r="2.2"/><circle cx="28" cy="38" r="2.2"/><circle cx="38" cy="29" r="2.2"/><circle cx="38" cy="38" r="2.2"/><circle cx="48" cy="29" r="2.2"/><circle cx="48" cy="38" r="2.2"/><circle cx="58" cy="29" r="2.2"/><circle cx="58" cy="38" r="2.2"/><circle cx="68" cy="29" r="2.2"/><circle cx="68" cy="38" r="2.2"/><circle cx="78" cy="29" r="2.2"/><circle cx="78" cy="38" r="2.2"/></g><path d="M28 10v10M68 10v10" stroke="#3a5a44" stroke-width="2.2"/><path d="M18 50l-6 30M48 50v34M78 50l6 30" stroke="#5dce7a" stroke-width="2.2" opacity=".3" stroke-linecap="round"/><text x="72" y="44" fill="#e0c48a" font-size="7" font-weight="700" font-family="system-ui,sans-serif">200</text></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">照明</span>
+                <h3><a class="product-link" href="product.html">フルスペクトルLED 200W</a></h3>
+                <p class="desc">中型テント向け、調光つきパネル型の例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><path d="M14 18h68" stroke="#3a5a44" stroke-width="2.2"/><rect x="18" y="24" width="8" height="40" rx="3" fill="#1e3024" stroke="#5dce7a" stroke-width="1.6"/><path d="M22 28v32" stroke="#7ee096" stroke-width="2.2" stroke-dasharray="2 3"/><rect x="34" y="24" width="8" height="40" rx="3" fill="#1e3024" stroke="#5dce7a" stroke-width="1.6"/><path d="M38 28v32" stroke="#7ee096" stroke-width="2.2" stroke-dasharray="2 3"/><rect x="50" y="24" width="8" height="40" rx="3" fill="#1e3024" stroke="#5dce7a" stroke-width="1.6"/><path d="M54 28v32" stroke="#7ee096" stroke-width="2.2" stroke-dasharray="2 3"/><rect x="66" y="24" width="8" height="40" rx="3" fill="#1e3024" stroke="#5dce7a" stroke-width="1.6"/><path d="M70 28v32" stroke="#7ee096" stroke-width="2.2" stroke-dasharray="2 3"/><path d="M20 70l-4 12M48 70v14M76 70l4 12" stroke="#5dce7a" stroke-width="2.2" opacity=".3" stroke-linecap="round"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">照明</span>
+                <h3><a class="product-link" href="product.html">バー型LED（4本）</a></h3>
+                <p class="desc">光を均一に広げやすいバー型の例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><path d="M30 80h20M40 80V52" stroke="#7f9a86" stroke-width="2.2" stroke-linecap="round"/><path d="M40 52c0-14 10-24 26-26" stroke="#5dce7a" stroke-width="2.2" stroke-linecap="round"/><rect x="58" y="18" width="24" height="14" rx="4" transform="rotate(20 70 25)" fill="#1e3024" stroke="#5dce7a" stroke-width="2.2"/><path d="M64 38l-6 16M74 40l2 16" stroke="#7ee096" stroke-width="2.2" opacity=".35" stroke-linecap="round"/><path d="M26 74h28l-2 6H28Z" fill="#c9a86c" opacity=".6"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">照明</span>
+                <h3><a class="product-link" href="product.html">クリップ式LEDライト</a></h3>
+                <p class="desc">棚や鉢の補光に使える小型ライトの例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><rect x="22" y="18" width="52" height="60" rx="10" fill="#16211a" stroke="#5dce7a" stroke-width="2.2"/><circle cx="48" cy="44" r="16" stroke="#3a5a44" stroke-width="2.2"/><path d="M48 32v12l8 5" stroke="#e0c48a" stroke-width="2.2" stroke-linecap="round"/><g fill="#5dce7a"><rect x="30" y="66" width="5" height="5" rx="1" opacity="0.9"/><rect x="38" y="66" width="5" height="5" rx="1" opacity="0.9"/><rect x="46" y="66" width="5" height="5" rx="1" opacity="0.9"/><rect x="54" y="66" width="5" height="5" rx="1" opacity="0.35"/><rect x="62" y="66" width="5" height="5" rx="1" opacity="0.35"/></g></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">照明</span>
+                <h3><a class="product-link" href="product.html">プログラムタイマー</a></h3>
+                <p class="desc">点灯時間を自動で管理するタイマーの例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><path d="M24 12v30M72 12v30" stroke="#7f9a86" stroke-width="1.6"/><rect x="18" y="42" width="12" height="10" rx="2" fill="#c9a86c" opacity=".8"/><rect x="66" y="42" width="12" height="10" rx="2" fill="#c9a86c" opacity=".8"/><path d="M24 52v14M72 52v14" stroke="#7f9a86" stroke-width="1.6"/><rect x="14" y="66" width="68" height="10" rx="3" fill="#1e3024" stroke="#5dce7a" stroke-width="2.2"/><path d="M20 12h56" stroke="#3a5a44" stroke-width="2.2" stroke-linecap="round"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">照明</span>
+                <h3><a class="product-link" href="product.html">ライト吊り下げワイヤー</a></h3>
+                <p class="desc">照明の高さを細かく調整できるハンガーの例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="cat-panel" id="panel-nutrient" role="tabpanel" aria-labelledby="tab-nutrient" data-cat-panel="nutrient" data-name="肥料・培地" tabindex="0">
+          <div class="cat-panel-head">
+            <h2>肥料・培地</h2>
+            <p>土耕・水耕・ココなど育て方に合わせて選ぶ用品。成分・容量は仕入れ確定後に掲載。</p>
+          </div>
+          <ul class="products products-3" aria-label="肥料・培地の商品カード（見本）">
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><path d="M20 34h22v44a4 4 0 0 1-4 4H24a4 4 0 0 1-4-4Z" fill="#16211a" stroke="#5dce7a" stroke-width="2.2"/><rect x="25" y="24" width="12" height="10" rx="2" fill="#3a9e54"/><path d="M54 34h22v44a4 4 0 0 1-4 4H58a4 4 0 0 1-4-4Z" fill="#16211a" stroke="#c9a86c" stroke-width="2.2"/><rect x="59" y="24" width="12" height="10" rx="2" fill="#c9a86c" opacity=".8"/><text x="26" y="64" fill="#7ee096" font-size="16" font-weight="800" font-family="system-ui,sans-serif">A</text><text x="60" y="64" fill="#e0c48a" font-size="16" font-weight="800" font-family="system-ui,sans-serif">B</text></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">肥料・培地</span>
+                <h3><a class="product-link" href="product.html">液体肥料 A/B</a></h3>
+                <p class="desc">2液タイプの液体肥料の例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><path d="M34 30h28v46a6 6 0 0 1-6 6H40a6 6 0 0 1-6-6Z" fill="#16211a" stroke="#5dce7a" stroke-width="2.2"/><rect x="40" y="18" width="16" height="12" rx="2" fill="#3a9e54"/><path d="M48 46c-8 6-8 14 0 20 8-6 8-14 0-20Z" fill="#5dce7a" opacity=".45"/><path d="M48 66v6" stroke="#c9a86c" stroke-width="2.2" stroke-linecap="round"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">肥料・培地</span>
+                <h3><a class="product-link" href="product.html">有機系液体肥料</a></h3>
+                <p class="desc">野菜・ハーブ向け有機系の液体肥料の例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><path d="M22 26l52 0-4 54H26Z" fill="#241c14" stroke="#c9a86c" stroke-width="2.2" stroke-linejoin="round"/><path d="M22 26c10-8 42-8 52 0" stroke="#c9a86c" stroke-width="2.2"/><g fill="#e0c48a" opacity=".5"><circle cx="38" cy="48" r="2"/><circle cx="50" cy="56" r="2"/><circle cx="58" cy="44" r="2"/><circle cx="44" cy="64" r="2"/></g><text x="48" y="74" text-anchor="middle" fill="#e0c48a" font-size="8" font-weight="700" font-family="system-ui,sans-serif">COCO</text></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">肥料・培地</span>
+                <h3><a class="product-link" href="product.html">ココ培地</a></h3>
+                <p class="desc">ヤシ殻由来で水はけと保水のバランスが良い培地の例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><path d="M24 22h48l4 56a4 4 0 0 1-4 4H24a4 4 0 0 1-4-4Z" fill="#16211a" stroke="#5dce7a" stroke-width="2.2"/><path d="M24 22l6-8h36l6 8" stroke="#3a5a44" stroke-width="2.2"/><path d="M40 56c-6-2-8-8-6-12 6 0 8 5 6 12ZM56 56c6-2 8-8 6-12-6 0-8 5-6 12ZM48 64V46" stroke="#5dce7a" stroke-width="1.6" fill="#5dce7a" fill-opacity=".25"/><path d="M28 70h40" stroke="#c9a86c" stroke-width="2.2" opacity=".6"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">肥料・培地</span>
+                <h3><a class="product-link" href="product.html">室内用培養土</a></h3>
+                <p class="desc">観葉植物・ハーブ向け、室内で扱いやすい培養土の例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><path d="M18 44h60l-6 34a6 6 0 0 1-6 5H30a6 6 0 0 1-6-5Z" fill="#16211a" stroke="#5dce7a" stroke-width="2.2"/><g stroke="#c9a86c" stroke-width="1.6" fill="#3a2c1c"><circle cx="32" cy="40" r="6"/><circle cx="44" cy="36" r="6"/><circle cx="56" cy="38" r="6"/><circle cx="66" cy="42" r="6"/><circle cx="38" cy="30" r="6"/><circle cx="52" cy="28" r="6"/></g></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">肥料・培地</span>
+                <h3><a class="product-link" href="product.html">ハイドロボール</a></h3>
+                <p class="desc">水耕・土を使わない栽培向けの粒状培地の例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><rect x="36" y="16" width="24" height="10" rx="2" fill="#c9a86c" opacity=".8"/><path d="M34 26h28l4 12v38a6 6 0 0 1-6 6H36a6 6 0 0 1-6-6V38Z" fill="#16211a" stroke="#5dce7a" stroke-width="2.2"/><path d="M40 54l6 6 12-14" stroke="#7ee096" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">肥料・培地</span>
+                <h3><a class="product-link" href="product.html">活力剤</a></h3>
+                <p class="desc">植え替え時などに使う活力剤の例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="cat-panel" id="panel-air" role="tabpanel" aria-labelledby="tab-air" data-cat-panel="air" data-name="換気・空調" tabindex="0">
+          <div class="cat-panel-head">
+            <h2>換気・空調</h2>
+            <p>テント内の温度・湿度・空気の流れを整える機器。蒸れやカビ対策に。</p>
+          </div>
+          <ul class="products products-3" aria-label="換気・空調の商品カード（見本）">
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><rect x="30" y="30" width="36" height="36" rx="8" fill="#16211a" stroke="#5dce7a" stroke-width="2.2"/><circle cx="48" cy="48" r="11" stroke="#5dce7a" stroke-width="2.2"/><path d="M48 37c4 4 4 7 0 11-4-4-4-7 0-11ZM59 48c-4 4-7 4-11 0 4-4 7-4 11 0ZM48 59c-4-4-4-7 0-11 4 4 4 7 0 11ZM37 48c4-4 7-4 11 0-4 4-7 4-11 0Z" fill="#5dce7a" opacity=".45"/><path d="M30 42H14M30 54H14" stroke="#c9a86c" stroke-width="2.2"/><path d="M14 42v12" stroke="#c9a86c" stroke-width="2.2"/><path d="M66 42h16v12H66" stroke="#7f9a86" stroke-width="2.2"/><path d="M71 42v12M76 42v12" stroke="#7f9a86" stroke-width="1.6" opacity=".6"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">換気・空調</span>
+                <h3><a class="product-link" href="product.html">換気ファンとダクト</a></h3>
+                <p class="desc">インライン型ファン＋アルミダクトの組み合わせ例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><circle cx="48" cy="42" r="22" fill="#16211a" stroke="#5dce7a" stroke-width="2.2"/><circle cx="48" cy="42" r="15" stroke="#3a5a44" stroke-width="1.6"/><path d="M48 30c5 5 5 9 0 12-5-3-5-7 0-12ZM60 42c-5 5-9 5-12 0 3-5 7-5 12 0ZM48 54c-5-5-5-9 0-12 5 3 5 7 0 12ZM36 42c5-5 9-5 12 0-3 5-7 5-12 0Z" fill="#5dce7a" opacity=".5"/><circle cx="48" cy="42" r="3" fill="#c9a86c"/><path d="M48 64v8M38 80h20l-4-8H42Z" stroke="#7f9a86" stroke-width="2.2" stroke-linejoin="round"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">換気・空調</span>
+                <h3><a class="product-link" href="product.html">クリップ式サーキュレーター</a></h3>
+                <p class="desc">支柱に取り付けて空気を循環させる小型ファンの例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><ellipse cx="48" cy="22" rx="20" ry="6" fill="#1e3024" stroke="#5dce7a" stroke-width="2.2"/><path d="M28 22v52c0 3 9 6 20 6s20-3 20-6V22" stroke="#5dce7a" stroke-width="2.2"/><path d="M32 30v44" stroke="#3a5a44" stroke-width="1.6"/><path d="M38 30v44" stroke="#3a5a44" stroke-width="1.6"/><path d="M44 30v44" stroke="#3a5a44" stroke-width="1.6"/><path d="M50 30v44" stroke="#3a5a44" stroke-width="1.6"/><path d="M56 30v44" stroke="#3a5a44" stroke-width="1.6"/><path d="M62 30v44" stroke="#3a5a44" stroke-width="1.6"/><rect x="40" y="10" width="16" height="8" rx="2" fill="#c9a86c" opacity=".8"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">換気・空調</span>
+                <h3><a class="product-link" href="product.html">活性炭フィルター</a></h3>
+                <p class="desc">排気のにおいを抑えるフィルターの例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><rect x="16" y="24" width="64" height="44" rx="8" fill="#16211a" stroke="#5dce7a" stroke-width="2.2"/><rect x="24" y="32" width="30" height="18" rx="3" fill="#0b140e" stroke="#3a5a44"/><text x="27" y="45" fill="#7ee096" font-size="10" font-weight="700" font-family="system-ui,sans-serif">26°</text><circle cx="66" cy="41" r="7" stroke="#c9a86c" stroke-width="2.2"/><path d="M24 58h10M38 58h10" stroke="#5dce7a" stroke-width="2.2" stroke-linecap="round" opacity=".6"/><path d="M36 68v10M60 68v10" stroke="#7f9a86" stroke-width="2.2"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">換気・空調</span>
+                <h3><a class="product-link" href="product.html">温湿度コントローラー</a></h3>
+                <p class="desc">設定値に合わせてファンを自動運転する機器の例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><circle cx="48" cy="48" r="24" stroke="#7f9a86" stroke-width="5"/><circle cx="48" cy="48" r="16" stroke="#3a5a44" stroke-width="1.6" stroke-dasharray="3 3"/><rect x="62" y="30" width="16" height="10" rx="2" transform="rotate(35 70 35)" fill="#c9a86c"/><circle cx="72" cy="36" r="2" fill="#0b140e"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">換気・空調</span>
+                <h3><a class="product-link" href="product.html">ダクト固定バンド</a></h3>
+                <p class="desc">ダクトの接続部を固定するバンドの例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><rect x="24" y="14" width="48" height="68" rx="8" fill="#16211a" stroke="#5dce7a" stroke-width="2.2"/><path d="M32 22h32" stroke="#3a5a44" stroke-width="2.2" stroke-linecap="round"/><path d="M32 28h32" stroke="#3a5a44" stroke-width="2.2" stroke-linecap="round"/><path d="M32 34h32" stroke="#3a5a44" stroke-width="2.2" stroke-linecap="round"/><path d="M32 40h32" stroke="#3a5a44" stroke-width="2.2" stroke-linecap="round"/><path d="M48 50c-6 8-6 12 0 14 6-2 6-6 0-14Z" fill="#5dce7a" opacity=".5"/><rect x="32" y="70" width="32" height="6" rx="2" fill="#c9a86c" opacity=".6"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">換気・空調</span>
+                <h3><a class="product-link" href="product.html">小型除湿機</a></h3>
+                <p class="desc">梅雨時期などの湿度対策に使う除湿機の例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="cat-panel" id="panel-meter" role="tabpanel" aria-labelledby="tab-meter" data-cat-panel="meter" data-name="計測機器" tabindex="0">
+          <div class="cat-panel-head">
+            <h2>計測機器</h2>
+            <p>「測れる」ことで失敗を減らす道具。温湿度・pH・EC・光の量など。</p>
+          </div>
+          <ul class="products products-3" aria-label="計測機器の商品カード（見本）">
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><rect x="22" y="16" width="52" height="64" rx="10" fill="#16211a" stroke="#5dce7a" stroke-width="2.2"/><rect x="30" y="26" width="36" height="26" rx="4" fill="#0b140e" stroke="#3a5a44"/><text x="34" y="44" fill="#7ee096" font-size="13" font-weight="700" font-family="system-ui,sans-serif">24.5</text><text x="34" y="68" fill="#c9a86c" font-size="10" font-weight="600" font-family="system-ui,sans-serif">55%</text><circle cx="62" cy="65" r="4" stroke="#5dce7a" stroke-width="1.6"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">計測機器</span>
+                <h3><a class="product-link" href="product.html">デジタル温湿度計</a></h3>
+                <p class="desc">最高・最低の記録表示つき温湿度計の例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><rect x="38" y="10" width="20" height="56" rx="6" fill="#16211a" stroke="#5dce7a" stroke-width="2.2"/><rect x="42" y="18" width="12" height="16" rx="2" fill="#0b140e"/><text x="43.5" y="30" fill="#7ee096" font-size="7" font-weight="700" font-family="system-ui,sans-serif">6.2</text><path d="M44 66h8v12a4 4 0 0 1-8 0Z" fill="#3a9e54"/><text x="41" y="52" fill="#c9a86c" font-size="10" font-weight="700" font-family="system-ui,sans-serif">pH</text><path d="M64 70c4 0 8 3 8 7s-4 5-8 5" stroke="#5dce7a" stroke-width="1.6" opacity=".5"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">計測機器</span>
+                <h3><a class="product-link" href="product.html">ペン型 pH計</a></h3>
+                <p class="desc">養液や用土のpHをチェックする計測器の例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><rect x="38" y="10" width="20" height="56" rx="6" fill="#16211a" stroke="#c9a86c" stroke-width="2.2"/><rect x="42" y="18" width="12" height="16" rx="2" fill="#0b140e"/><text x="42.5" y="30" fill="#e0c48a" font-size="7" font-weight="700" font-family="system-ui,sans-serif">1.2</text><path d="M44 66h8v12a4 4 0 0 1-8 0Z" fill="#3a9e54"/><text x="41" y="52" fill="#7ee096" font-size="10" font-weight="700" font-family="system-ui,sans-serif">EC</text></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">計測機器</span>
+                <h3><a class="product-link" href="product.html">ペン型 EC計</a></h3>
+                <p class="desc">養液の濃さ（EC）を測る計測器の例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><rect x="18" y="36" width="42" height="46" rx="8" fill="#16211a" stroke="#5dce7a" stroke-width="2.2"/><rect x="24" y="44" width="30" height="16" rx="3" fill="#0b140e"/><text x="27" y="56" fill="#7ee096" font-size="9" font-weight="700" font-family="system-ui,sans-serif">PPFD</text><path d="M60 58h8a6 6 0 0 0 6-6V30" stroke="#7f9a86" stroke-width="2.2"/><circle cx="74" cy="24" r="7" fill="#1e3024" stroke="#c9a86c" stroke-width="2.2"/><path d="M74 8v6M86 24h-4M84 14l-4 4M64 14l4 4" stroke="#e0c48a" stroke-width="1.6" stroke-linecap="round"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">計測機器</span>
+                <h3><a class="product-link" href="product.html">光量計（PPFD）</a></h3>
+                <p class="desc">植物に届く光の量を測るメーターの例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><circle cx="48" cy="30" r="16" fill="#16211a" stroke="#5dce7a" stroke-width="2.2"/><path d="M38 34a12 12 0 0 1 20 0" stroke="#3a5a44" stroke-width="2.2"/><path d="M48 34l6-8" stroke="#e0c48a" stroke-width="2.2" stroke-linecap="round"/><path d="M44 46v34M52 46v30" stroke="#7f9a86" stroke-width="2.2" stroke-linecap="round"/><path d="M20 70h56" stroke="#3a2c1c" stroke-width="10" opacity=".6"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">計測機器</span>
+                <h3><a class="product-link" href="product.html">土壌水分計</a></h3>
+                <p class="desc">水やりのタイミングを判断しやすくする例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><path d="M16 36h18v40a4 4 0 0 1-4 4h-10a4 4 0 0 1-4-4Z" fill="#16211a" stroke="#5dce7a" stroke-width="2.2"/><rect x="20" y="28" width="10" height="8" rx="1.5" fill="#5dce7a" opacity=".7"/><text x="25" y="62" text-anchor="middle" fill="#5dce7a" font-size="8" font-weight="700" font-family="system-ui,sans-serif">4.0</text><path d="M39 36h18v40a4 4 0 0 1-4 4h-10a4 4 0 0 1-4-4Z" fill="#16211a" stroke="#c9a86c" stroke-width="2.2"/><rect x="43" y="28" width="10" height="8" rx="1.5" fill="#c9a86c" opacity=".7"/><text x="48" y="62" text-anchor="middle" fill="#c9a86c" font-size="8" font-weight="700" font-family="system-ui,sans-serif">7.0</text><path d="M62 36h18v40a4 4 0 0 1-4 4h-10a4 4 0 0 1-4-4Z" fill="#16211a" stroke="#7ee096" stroke-width="2.2"/><rect x="66" y="28" width="10" height="8" rx="1.5" fill="#7ee096" opacity=".7"/><text x="71" y="62" text-anchor="middle" fill="#7ee096" font-size="8" font-weight="700" font-family="system-ui,sans-serif">10</text></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">計測機器</span>
+                <h3><a class="product-link" href="product.html">pH校正液セット</a></h3>
+                <p class="desc">pH計の精度を保つための校正液の例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="cat-panel" id="panel-seedling" role="tabpanel" aria-labelledby="tab-seedling" data-cat-panel="seedling" data-name="育苗" tabindex="0">
+          <div class="cat-panel-head">
+            <h2>育苗</h2>
+            <p>種まき・挿し木のスタートを支える用品。湿度と温度の管理がポイント。</p>
+          </div>
+          <ul class="products products-3" aria-label="育苗の商品カード（見本）">
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><path d="M16 60c0-18 14-30 32-30s32 12 32 30" fill="#5dce7a" fill-opacity=".08" stroke="#5dce7a" stroke-width="2.2"/><rect x="12" y="60" width="72" height="14" rx="3" fill="#16211a" stroke="#3a5a44" stroke-width="2.2"/><rect x="42" y="30" width="12" height="4" rx="2" fill="#c9a86c" opacity=".8"/><path d="M30 60v-8M48 60v-10M66 60v-8" stroke="#3a9e54" stroke-width="2.2" stroke-linecap="round"/><path d="M30 53c-4-1-5-4-4-6 3 0 4 2 4 6ZM48 51c4-1 5-4 4-6-3 0-4 2-4 6ZM66 53c-4-1-5-4-4-6 3 0 4 2 4 6Z" fill="#5dce7a"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">育苗</span>
+                <h3><a class="product-link" href="product.html">育苗ドーム＆トレイ</a></h3>
+                <p class="desc">通気口つきで湿度を保ちやすいドームの例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><rect x="12" y="44" width="72" height="26" rx="5" fill="#16211a" stroke="#5dce7a" stroke-width="2.2" transform="skewX(-12) translate(10 0)"/><path d="M28 50c3 6 -3 10 0 16" stroke="#c9a86c" stroke-width="1.6" stroke-linecap="round" opacity=".8"/><path d="M38 50c3 6 -3 10 0 16" stroke="#c9a86c" stroke-width="1.6" stroke-linecap="round" opacity=".8"/><path d="M48 50c3 6 -3 10 0 16" stroke="#c9a86c" stroke-width="1.6" stroke-linecap="round" opacity=".8"/><path d="M58 50c3 6 -3 10 0 16" stroke="#c9a86c" stroke-width="1.6" stroke-linecap="round" opacity=".8"/><path d="M68 50c3 6 -3 10 0 16" stroke="#c9a86c" stroke-width="1.6" stroke-linecap="round" opacity=".8"/><path d="M78 66c6 2 8 8 4 12" stroke="#7f9a86" stroke-width="2.2"/><path d="M36 38c-2-6 2-8 0-14M48 38c-2-6 2-8 0-14M60 38c-2-6 2-8 0-14" stroke="#e0c48a" stroke-width="1.6" stroke-linecap="round" opacity=".5"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">育苗</span>
+                <h3><a class="product-link" href="product.html">育苗ヒートマット</a></h3>
+                <p class="desc">発芽に適した温度を保つマットの例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><rect x="18" y="50" width="20" height="20" rx="3" fill="#3a2c1c" stroke="#c9a86c" stroke-width="1.6"/><circle cx="28" cy="60" r="2.5" fill="#0b140e"/><rect x="40" y="50" width="20" height="20" rx="3" fill="#3a2c1c" stroke="#c9a86c" stroke-width="1.6"/><circle cx="50" cy="60" r="2.5" fill="#0b140e"/><rect x="62" y="50" width="20" height="20" rx="3" fill="#3a2c1c" stroke="#c9a86c" stroke-width="1.6"/><circle cx="72" cy="60" r="2.5" fill="#0b140e"/><rect x="29" y="30" width="20" height="20" rx="3" fill="#3a2c1c" stroke="#c9a86c" stroke-width="1.6"/><circle cx="39" cy="40" r="2.5" fill="#0b140e"/><rect x="51" y="30" width="20" height="20" rx="3" fill="#3a2c1c" stroke="#c9a86c" stroke-width="1.6"/><circle cx="61" cy="40" r="2.5" fill="#0b140e"/><path d="M61 30c0-8 4-12 8-14" stroke="#5dce7a" stroke-width="2.2" stroke-linecap="round"/><path d="M69 16c-4 0-6 3-6 6 4 0 6-2 6-6Z" fill="#5dce7a"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">育苗</span>
+                <h3><a class="product-link" href="product.html">育苗用培地キューブ</a></h3>
+                <p class="desc">種まき・挿し木に使える小型キューブの例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><rect x="36" y="14" width="24" height="12" rx="3" fill="#3a9e54"/><path d="M32 26h32v48a6 6 0 0 1-6 6H38a6 6 0 0 1-6-6Z" fill="#16211a" stroke="#5dce7a" stroke-width="2.2"/><path d="M48 40v14M48 54c-4 4-6 8-6 12M48 54c4 4 6 8 6 12M48 58v10" stroke="#e0c48a" stroke-width="1.6" stroke-linecap="round"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">育苗</span>
+                <h3><a class="product-link" href="product.html">発根促進剤</a></h3>
+                <p class="desc">園芸用の挿し木に使う発根剤の例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><path d="M34 40h28v38a6 6 0 0 1-6 6H40a6 6 0 0 1-6-6Z" fill="#16211a" stroke="#5dce7a" stroke-width="2.2"/><rect x="40" y="28" width="16" height="12" rx="2" fill="#3a9e54"/><path d="M42 28V18h18l4 4h-8v6" stroke="#7f9a86" stroke-width="2.2" stroke-linejoin="round"/><g fill="#7ee096" opacity=".6"><circle cx="72" cy="16" r="1.6"/><circle cx="78" cy="22" r="1.6"/><circle cx="76" cy="12" r="1.6"/><circle cx="82" cy="17" r="1.6"/></g><path d="M40 62h16" stroke="#c9a86c" stroke-width="2.2" opacity=".6"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">育苗</span>
+                <h3><a class="product-link" href="product.html">加圧式スプレー</a></h3>
+                <p class="desc">葉水や育苗時の加湿に使う霧吹きの例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product-art" aria-hidden="true">
+                <span class="sample-mark">見本</span>
+                <svg class="gb-ill" viewBox="0 0 96 96" fill="none"><path d="M14 50h22l-3 26a3 3 0 0 1-3 3H20a3 3 0 0 1-3-3Z" fill="#16211a" stroke="#5dce7a" stroke-width="2.2"/><path d="M25 50v-8" stroke="#3a9e54" stroke-width="1.6"/><path d="M25 43c-5-1-6-5-5-7 4 0 5 3 5 7ZM25 43c5-1 6-5 5-7-4 0-5 3-5 7Z" fill="#5dce7a"/><path d="M37 50h22l-3 26a3 3 0 0 1-3 3H43a3 3 0 0 1-3-3Z" fill="#16211a" stroke="#5dce7a" stroke-width="2.2"/><path d="M48 50v-8" stroke="#3a9e54" stroke-width="1.6"/><path d="M48 43c-5-1-6-5-5-7 4 0 5 3 5 7ZM48 43c5-1 6-5 5-7-4 0-5 3-5 7Z" fill="#5dce7a"/><path d="M60 50h22l-3 26a3 3 0 0 1-3 3H66a3 3 0 0 1-3-3Z" fill="#16211a" stroke="#5dce7a" stroke-width="2.2"/><path d="M71 50v-8" stroke="#3a9e54" stroke-width="1.6"/><path d="M71 43c-5-1-6-5-5-7 4 0 5 3 5 7ZM71 43c5-1 6-5 5-7-4 0-5 3-5 7Z" fill="#5dce7a"/><path d="M12 82h72" stroke="#c9a86c" stroke-width="2.2" opacity=".5"/></svg>
+              </div>
+              <div class="product-body">
+                <span class="tag">育苗</span>
+                <h3><a class="product-link" href="product.html">育苗ポットセット</a></h3>
+                <p class="desc">苗の植え替え用の小型ポットの例。</p>
+                <p class="price">価格は準備中</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <p class="note">※掲載のイラスト・商品名・説明はすべて見本です。実際の取扱商品・仕様・価格は仕入れ確定後に掲載します（価格は準備中）。取扱ブランドは未確定です。</p>
+        <div class="section-more">
+          <a class="btn btn-ghost" href="guide.html">何を選べばいいか迷ったら：選び方ガイド <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="foot-grid">
+        <div class="foot-brand">
+          <a class="logo foot-logo" href="index.html" aria-label="GrowBase（仮称） トップへ">
+            <img class="logo-img" src="assets/logo.svg" width="36" height="36" alt="" />
+            <span>GrowBase<small>グロウベース · 仮称</small></span>
+          </a>
+          <p>テント・照明・肥料・環境機器まで、室内栽培用品を一式そろえるワンストップ専門店（構想中）のホームページモックです。</p>
+        </div>
+        <div>
+          <h4>商品を見る</h4>
+          <ul class="foot-links">
+            <li><a href="category.html">カテゴリ別商品一覧</a></li>
+            <li><a href="index.html#products">人気の商品（見本）</a></li>
+            <li><a href="product.html">商品詳細（見本）</a></li>
+            <li><a href="sets.html">スターターセット比較</a></li>
+            <li><a href="index.html#brands">取扱ブランド候補</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>GrowBaseについて</h4>
+          <ul class="foot-links">
+            <li><a href="about.html">お店紹介</a></li>
+            <li><a href="index.html#reasons">選ばれる理由</a></li>
+            <li><a href="guide.html">はじめての方へ</a></li>
+            <li><a href="index.html#faq">よくある質問</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>ご利用案内</h4>
+          <ul class="foot-links">
+            <li><a href="legal.html">特定商取引法に基づく表記</a></li>
+            <li><a href="legal.html#privacy">プライバシーポリシー</a></li>
+          </ul>
+          <p class="foot-mini">販売業者・所在地・連絡先・肥料販売の届出：要確認（準備中）</p>
+        </div>
+      </div>
+      <div class="legal">
+        <p><strong>免責・法令遵守</strong>：当サイトは室内園芸・インドアガーデニング用品の販売・選び方に関する情報を提供します。栽培対象となる植物の所持・栽培は国・地域の法令に従ってください。違法行為を助長する目的の情報提供は行いません。</p>
+        <p style="margin-top:.6rem;">「GrowBase / グロウベース」は<strong>仮称</strong>です。価格・店舗名・所在地・許可状況・取扱ブランドは未確定のため断定していません。掲載のブランド名は各社の商標であり、提携を示すものではありません。</p>
+        <div class="foot-bottom">
+          <span>© 2026 GrowBase（仮称）— Homepage mock for planning</span>
+          <a class="to-top" href="#top">ページ上部へ <span aria-hidden="true">↑</span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
